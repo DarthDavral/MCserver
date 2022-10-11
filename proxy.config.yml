@@ -11,7 +11,7 @@ listeners:
   priorities:
   - hub
   bind_local_address: true
-  host: 0.0.0.0:25577
+  host: 0.0.0.0:25570
   max_players: 120
   tab_size: 60
   force_default_server: false
@@ -48,20 +48,20 @@ disabled_commands:
 servers:
   hub:
     motd: '&1Panda Project Hub'
-    address: panda-mc-srv-hub:25565
+    address: panda-mc-srv-hub:25571
     restricted: false
 
   node1:
     motd: '&1Panda Project Node1'
-    address: panda-mc-srv-node1:25565
+    address: panda-mc-srv-node1:25572
     restricted: false
 
   node2:
     motd: '&1Panda Project Node2'
-    address: panda-mc-srv-node2:25565
+    address: panda-mc-srv-node2:25573
     restricted: false
    
   node3:
     motd: '&1Panda Project Node3'
-    address: panda-mc-srv-node3:25565
+    address: panda-mc-srv-node3:25574
     restricted: false
